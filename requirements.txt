@@ -1,0 +1,7 @@
+Telethon
+pymongo
+asyncio
+python-dotenv
+python-socks
+motor
+aiohttp
