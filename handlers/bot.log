@@ -1,0 +1,63 @@
+2025-12-18 05:27:36,546 - Database - INFO - MongoDB connected and initialized successfully.
+2025-12-18 05:27:36,555 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-12-18 05:27:38,394 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-12-18 05:27:39,769 - telethon.client.users - INFO - Phone migrated to 5
+2025-12-18 05:27:39,770 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2025-12-18 05:27:40,027 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-12-18 05:27:40,029 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-12-18 05:27:40,031 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:27:41,352 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:27:51,803 - telethon.client.updates - ERROR - Unhandled exception on _start
+Traceback (most recent call last):
+  File "C:\Users\TEAM OWNER\AppData\Local\Programs\Python\Python313\Lib\site-packages\telethon\client\updates.py", line 574, in _dispatch_update
+    await callback(event)
+  File "C:\Users\TEAM OWNER\Desktop\telethon all - Copy\telethon all\handlers\acc_premium.py", line 201, in _start
+    async def _start(event): await start_handler(event)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TEAM OWNER\Desktop\telethon all - Copy\telethon all\handlers\acc_premium.py", line 33, in start_handler
+    await db.upsert_user(user_id, sender.username, sender.first_name)
+          ^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'upsert_user'
+2025-12-18 05:28:33,294 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.166:443/TcpFull...
+2025-12-18 05:28:33,296 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:28:45,143 - Database - INFO - MongoDB connected and initialized successfully.
+2025-12-18 05:28:45,143 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:28:45,197 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:28:49,430 - telethon.client.updates - ERROR - Unhandled exception on _start
+Traceback (most recent call last):
+  File "C:\Users\TEAM OWNER\AppData\Local\Programs\Python\Python313\Lib\site-packages\telethon\client\updates.py", line 574, in _dispatch_update
+    await callback(event)
+  File "C:\Users\TEAM OWNER\Desktop\telethon all - Copy\telethon all\handlers\acc_premium.py", line 203, in _start
+    async def _start(event): await start_handler(event)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TEAM OWNER\Desktop\telethon all - Copy\telethon all\handlers\acc_premium.py", line 33, in start_handler
+    await db.upsert_user(user_id, sender.username, sender.first_name)
+          ^^^^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'upsert_user'
+2025-12-18 05:29:47,252 - Database - INFO - MongoDB connected and initialized successfully.
+2025-12-18 05:29:47,253 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:29:47,307 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:32:11,176 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-12-18 05:32:13,648 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-12-18 05:32:14,231 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-12-18 05:32:14,232 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-12-18 05:32:21,458 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-12-18 05:32:23,351 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-12-18 05:32:24,130 - telethon.client.users - INFO - Phone migrated to 5
+2025-12-18 05:32:24,324 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 5
+2025-12-18 05:32:24,523 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-12-18 05:32:24,524 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-12-18 05:32:24,524 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:32:25,714 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:32:26,304 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.166:443/TcpFull...
+2025-12-18 05:32:26,337 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:32:36,436 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:32:36,491 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:32:36,853 - telethon.network.mtprotosender - INFO - Disconnecting from 91.108.56.166:443/TcpFull...
+2025-12-18 05:32:36,854 - telethon.network.mtprotosender - INFO - Disconnection from 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:37:24,959 - Database - INFO - MongoDB connected and initialized successfully.
+2025-12-18 05:37:24,960 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:37:25,013 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
+2025-12-18 05:39:34,550 - Database - INFO - MongoDB connected and initialized successfully.
+2025-12-18 05:39:34,551 - telethon.network.mtprotosender - INFO - Connecting to 91.108.56.166:443/TcpFull...
+2025-12-18 05:39:34,606 - telethon.network.mtprotosender - INFO - Connection to 91.108.56.166:443/TcpFull complete!
